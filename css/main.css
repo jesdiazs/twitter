@@ -1,0 +1,19 @@
+
+
+.form-control{
+	border-radius: 1px;
+	width: 100%;
+	height: 100px;
+}
+.fa-trash{
+	position: relative;
+	right: -11px;
+	top: 6px;
+}
+.btn-primary {
+  margin-top: 10px;
+  background-color: #AAA8A8;
+  border-color: #AAA8A8;
+  width: 100px;
+  height: 50px;
+}
