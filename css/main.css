@@ -1,4 +1,7 @@
-
+.cabecera{
+	background-color: red;
+	border: 1px solid black;
+}
 
 .form-control{
 	border-radius: 1px;

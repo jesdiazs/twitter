@@ -5,34 +5,44 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	
 	<title>Ejecicio de Twitter</title>
 </head>
 <body>
-<header>
-	<div class="container-fluid banner">
+<header class="cabecera">
+	<div class="container-fluid banner text-center">
 		<div class="row">
 			<div class="col-md-12 col-xs-12">
 				<h2>TODO APP</h2>
 			</div>
 		</div>	
 	</div>
+</header>
 	<section>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 col-xs-12">
-					<textarea name="form-control" id="campo" cols="30" rows="5"></textarea>
-					<i class="fa fa-trash" aria-hidden="true"></i>
+		<div class="container-fluid text-center">
+			<div class="row text-center">
+				<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+					<textarea class="form-control" id="campo" rows="5"></textarea>
 				</div>
 			</div>
-			<div class="col-md-12 col-xs-12">
-				<button type="button" class="btn btn-primary btn-lg btn-block">Agregar</button>
+			<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 text-center">
+				<button type="button" class="btn btn-default btn-lg btn-block" id="botonEntrada">Agregar</button>
 			</div>
 		</div>
 	</section>
-</header>
+	<section>
+		<div class="row">
+			<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12" id="sublista">
+				<ul class="lista" id="listarea">
+						
+				</ul>
+			</div>
+		</div>
+	</section>
 <!--ENLACES JS-->
 <script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
 <script scr="js/bootstrap.min.js"></script>
